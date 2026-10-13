@@ -6,4 +6,4 @@ dotnet add package Microsoft.EntityFrameworkCore.Design -v 9.*
 
 dotnet tool install --global dotnet-ef
 
-dotnet ef dbcontext scaffold "Host=localhost;Port=5432;Database=port_linq;Username=postgres;Password=Yourpassword" Npgsql.EntityFrameworkCore.PostgreSQL -o Models -c PortContext
+dotnet ef dbcontext scaffold "Host=localhost;Port=5432;Database=port_linq;Username=postgres;Password=Yourpassword" Npgsql.EntityFrameworkCore.PostgreSQL -o Models -c ContextName
